@@ -1,0 +1,161 @@
+ul.menu {
+
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#1b4427 ;
+      }
+
+ul.menu li{
+    display: inline;
+    float: left;
+}
+
+ul.menu > li a {
+        
+        display: block;
+        color: white;
+        padding: 8px 30px;
+        text-decoration: none;   
+        font-family: 'ABeezee';
+        
+}
+
+.active{
+background-color:rgb(50, 205, 115) ;
+color: rgb(255, 196, 0);
+}
+
+ul.menu > li a:hover {
+    background-color:#1b4427;
+    color: rgb(255, 196, 0);
+}
+
+
+.titlehome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Advent pro';
+    
+    
+}
+
+.titlehome > * {
+    align-self: auto;
+}
+
+.slogan{
+    font-size: 28px;
+    margin-top: -50px;
+    font-family: 'Advent pro';
+    letter-spacing: 3px;
+    color: rgb(255, 196, 0);
+    font-weight: bold;
+
+}
+
+
+
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+div > h2 {
+    color: #1b4427f1;
+    font-family: 'ABeezee';
+    font-size: 80px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'ABeezee';
+    
+}
+
+
+
+h3 {
+    text-align: center;
+    font-family: 'ABeezee';
+    color: #1b4427f1;
+}
+
+p {
+    text-align: center;
+    font-family: 'ABeezee';
+    font-size: 14px;
+}
+
+button {
+    justify-content: center;
+ width: 7em;
+  background-color: #1b4427;
+  color: white;
+  border-radius: 1em;
+}
+
+
+
+container {
+display:grid;
+grid-column-start: 2;
+grid-template-columns: 1fr 1fr;
+
+}
+
+wrapper {
+display: grid;
+grid-template-columns: 1fr 4fr 4fr 1fr;
+align-content: center;
+justify-content: center;
+
+
+}
+
+card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: #1b4427f1 1px solid;
+    padding: 5%;
+    background: white;
+    z-index: 1;
+    border-radius: 2%;
+}
+
+card > div {
+    align-self: center;
+
+}
+
+.custom-shape-divider-bottom-1635684456 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1635684456 svg {
+    position: relative;
+    display: block;
+    width: calc(158% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-bottom-1635684456 .shape-fill {
+    fill: #1b4427;
+}
+
+
+
